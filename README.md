@@ -80,7 +80,7 @@ Install the required libraries:
 
 ```bash
 pip install streamlit cryptography
-
+```
 **That's it for now.** ❤️
 
 Tell me **“done”**, and I'll give you **only the next one thing** to add.
