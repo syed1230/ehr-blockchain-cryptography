@@ -7,7 +7,7 @@ A cryptographic security model for protecting Electronic Health Records (EHR) us
 The project demonstrates how cryptographic techniques can be used to protect sensitive healthcare records and detect unauthorized modification.
 
 ## 🔄 System Workflow
-
+```text 
 Patient Record
       ↓
 AES-256 Encryption
@@ -21,6 +21,7 @@ Integrity Verification
 Tamper Detection
       ↓
 Authorized Decryption
+```
 ## 🔐 Technologies Used
 
 - Python
