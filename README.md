@@ -81,6 +81,13 @@ Install the required libraries:
 ```bash
 pip install streamlit cryptography
 ```
-**That's it for now.** ❤️
+## 🧪 Testing the System
 
-Tell me **“done”**, and I'll give you **only the next one thing** to add.
+1. Enter patient information.
+2. Click **Secure Patient Record**.
+3. Verify the AES-256 encrypted data and SHA-256 hash.
+4. Check the stored blockchain blocks.
+5. Verify blockchain integrity.
+6. Simulate a tampering attack.
+7. Verify the blockchain again to detect the modification.
+8. Decrypt an untampered patient record using Authorized Access.
