@@ -91,3 +91,18 @@ pip install streamlit cryptography
 6. Simulate a tampering attack.
 7. Verify the blockchain again to detect the modification.
 8. Decrypt an untampered patient record using Authorized Access.
+
+## 🛡️ Security Concepts Demonstrated
+
+- **AES-256-GCM:** Encrypts sensitive patient information.
+- **SHA-256:** Generates a cryptographic hash for data integrity.
+- **Blockchain:** Links blocks using the previous block's hash.
+- **Tamper Detection:** Detects unauthorized modification of blockchain data.
+- **Authorized Decryption:** Recovers the original patient record using the AES-256 key.
+
+## ⚠️ Project Scope
+
+This project is a simplified educational simulation of applying cryptography to Electronic Health Records using blockchain concepts.
+
+It demonstrates AES-256 encryption, SHA-256 hashing, blockchain-based integrity verification, tamper detection, and authorized decryption.
+
