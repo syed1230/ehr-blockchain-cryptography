@@ -9,19 +9,18 @@ The project demonstrates how cryptographic techniques can be used to protect sen
 ## 🔄 System Workflow
 
 Patient Record
-↓
+      ↓
 AES-256 Encryption
-↓
+      ↓
 SHA-256 Hashing
-↓
+      ↓
 Blockchain Storage
-↓
+      ↓
 Integrity Verification
-↓
+      ↓
 Tamper Detection
-↓
+      ↓
 Authorized Decryption
-
 ## 🔐 Technologies Used
 
 - Python
@@ -80,3 +79,7 @@ Install the required libraries:
 
 ```bash
 pip install streamlit cryptography
+
+**That's it for now.** ❤️
+
+Tell me **“done”**, and I'll give you **only the next one thing** to add.
