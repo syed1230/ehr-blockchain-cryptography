@@ -4,9 +4,28 @@ import hashlib
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 
+KEY_FILE = "aes_key.key"
+
+
 def generate_key():
     """Generate a random 256-bit AES key."""
     return AESGCM.generate_key(bit_length=256)
+
+
+def load_or_create_key():
+    """Load the existing AES key or create one if it does not exist."""
+
+    if os.path.exists(KEY_FILE):
+
+        with open(KEY_FILE, "rb") as file:
+            return file.read()
+
+    key = generate_key()
+
+    with open(KEY_FILE, "wb") as file:
+        file.write(key)
+
+    return key
 
 
 def encrypt_data(data, key):
